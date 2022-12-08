@@ -48,6 +48,7 @@ body{
 .search-box input{
     width: 100%;
     border: none;
+    text-transform: capitalize;
         /* border: .5px solid #fc3f6b; */
         background-color: transparent;
         outline: none;

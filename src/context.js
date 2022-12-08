@@ -1,28 +1,32 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext } from "react";
 import Data from "./Components/Data";
 // make sure to use https
 const AppContext = React.createContext();
 
-
 const AppProvider = ({ children }) => {
-  const [data,setData]=useState(Data)
-const changeHandler =(e)=>{
-}
-  const findIndex= (e)=>{
-    
-    setIndex(e.target.id)
-  }
-  const [newData,setNewData]=useState([])
-  const [index,setIndex]=useState('Abbat')
+  const [data, setData] = useState(Data);
+  const changeHandler = (e) => {};
+  const findIndex = (e) => {
+    setIndex(e.target.id);
+  };
+  const [newData, setNewData] = useState([]);
+  const [index, setIndex] = useState("Abbat");
+  const [title, setTitle] = useState("");
+  const capitalized = title.charAt(0).toUpperCase() + title.slice(1);
   return (
-    <AppContext.Provider  value={{
-      findIndex,
-      data,
-      setIndex,
-      index,
-      newData,
-      changeHandler
-      }}>
+    <AppContext.Provider
+      value={{
+        findIndex,
+        data,
+        setIndex,
+        index,
+        newData,
+        changeHandler,
+        title,
+        setTitle,
+        capitalized
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

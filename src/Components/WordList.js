@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React  from "react";
 import WordItem from "./WordItem";
-import { useGlobalContext } from "../context";
 import "../App.css";
 const WordList = () => {
   return (
