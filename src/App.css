@@ -140,8 +140,139 @@ cursor: pointer;
     color: black;
 }
 .show{
-    color:blue;
+    color:blueviolet;
     font-weight: 600 !important;
+}
+
+.latter{
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    width: 2.4%;
+    font-size:70%;
+    top: 0;
+    left: 0;
+
+    background-color:rgb(240, 212, 175);
+    border-radius: 5%;
+    /* border: 1px solid black; */
+}
+.lattera{
+    left: 12.3%;
+    top: 12%;
+}
+.latterb{
+    left: 12.8%;
+    top: 15.4%;
+}
+.latterd{
+    left: 13.2%;
+    top: 18.8%;
+}
+.lattere{
+    left: 13.6%;
+    top: 22.1%;
+}
+.latterf{
+    left: 14%;
+    top: 25.4%;
+
+}
+.latterg{
+    left: 14.4%;
+    top: 28.9%;
+}
+.latterh{
+    left: 14.9%;
+    top: 32.4%;
+    width: 2.5%;
+
+}
+.latteri{
+    width: 2.5%;
+    left: 15.3%;
+    top: 35.9%;
+}
+
+
+.latterj{
+    left: 12.1%;
+    top: 39%;
+}
+
+.latterk{
+    left: 12.8%;
+    top: 42.4%;
+}
+
+.latterl{
+    left: 13.2%;
+    top: 45.7%;
+}
+.latterm{
+    left: 13.6%;
+    top: 49.1%;
+}
+.lattern{
+    left: 14%;
+    top: 52.5%;
+
+}
+.lattero{
+    left: 14.4%;
+    top: 55.8%;
+}
+.latterp{
+    left: 14.9%;
+    top: 59.2%;
+
+}
+.latterq{
+    left: 15.3%;
+    top: 62.4%;
+}
+
+
+
+
+.latterr{
+    left: 11.5%;
+    top: 66%;
+}
+
+.latters{
+    left: 12%;
+    top: 69.1%;
+}
+.lattert{
+    left: 12.5%;
+    top:72.6%;
+}
+.latteru{
+    left: 13%;
+    top: 75.9%;
+}
+.latterv{
+    left: 14%;
+    top:79.3%;
+
+}
+.latterx{
+    left: 14.5%;
+    top: 82.5%;
+}
+.lattery{
+    left: 15%;
+    top: 86%;
+
+}
+.latterz{
+    left: 12.3%;
+    top: 88%;
+}
+.lattershow{
+    color:blueviolet ;
+    font-weight: 700;
 }
 @media (max-width:992px){
     .finish-box h4{

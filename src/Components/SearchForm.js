@@ -12,7 +12,7 @@ const SearchForm = () => {
   return (
     <div className='search-box'>
       <form onSubmit={SearchForma}>
-      <input ref={qiymat} onChange={SearchForma}  type='search' className='search-input' placeholder='Search'/>
+      <input ref={qiymat} onChange={SearchForma}  type='search' className='search-input' placeholder='Qidiruv'/>
       </form>
     </div>
   )

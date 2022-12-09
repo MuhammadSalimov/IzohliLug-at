@@ -13,6 +13,7 @@ const AppProvider = ({ children }) => {
   const [index, setIndex] = useState("Abbat");
   const [title, setTitle] = useState("");
   const capitalized = title.charAt(0).toUpperCase() + title.slice(1);
+  const [latter,setLatter]=useState('')
   return (
     <AppContext.Provider
       value={{
@@ -24,7 +25,9 @@ const AppProvider = ({ children }) => {
         changeHandler,
         title,
         setTitle,
-        capitalized
+        capitalized,
+        setLatter,
+        latter
       }}
     >
       {children}
