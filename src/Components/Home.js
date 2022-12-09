@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="img-container">
       <div className="relative-box">
-        <img src="./Kitob.png" />
+        <img alt="image" src="./Kitob.png"/>
         <div onClick={latter} id="a" className="latter lattera">
           A
         </div>

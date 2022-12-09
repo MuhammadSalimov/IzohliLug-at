@@ -27,7 +27,9 @@ const AppProvider = ({ children }) => {
         setTitle,
         capitalized,
         setLatter,
-        latter
+        latter,
+        setData,
+        setNewData
       }}
     >
       {children}
