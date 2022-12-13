@@ -157,6 +157,10 @@ cursor: pointer;
     border-radius: 5%;
     /* border: 1px solid black; */
 }
+.latterall{
+    left: 15.3%;
+    top: 12%;
+}
 .lattera{
     left: 12.3%;
     top: 12%;
@@ -271,7 +275,8 @@ cursor: pointer;
     top: 88%;
 }
 .lattershow{
-    color:blueviolet ;
+    background-color: blueviolet;
+    color:#fff;
     font-weight: 700;
 }
 @media (max-width:992px){

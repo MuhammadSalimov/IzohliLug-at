@@ -2,10 +2,11 @@ import React from 'react'
 import { useGlobalContext } from '../context'
 const WordItem = () => {
   const {data,findIndex,index,capitalized,latter}=useGlobalContext()
-  
   const newItem=data.filter((item)=>item.name===capitalized)
-  const dataLatter=data.filter((item)=>item.type===latter)
-  console.log(dataLatter.length);
+  const dataLatter=data.filter((item)=>
+   latter==='all'? data: item.type===latter
+
+  )
   return <>
         {
 
