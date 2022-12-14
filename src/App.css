@@ -9,11 +9,11 @@ body{
     align-items: center;
     justify-content: center;
     background-color: blueviolet;
-    
+    overflow: hidden;
 }
 
 .container{
-    width: 1400px;
+    width: 1800px;
     height: 100vh;
     background-color: blueviolet;
     position: relative;
@@ -280,6 +280,11 @@ cursor: pointer;
     color:#fff;
     font-weight: 700;
 }
+@media(max-width:1200px){
+    .container{
+        width: 1700px;
+    }
+}
 @media (max-width:992px){
     body{
         display: flex;
@@ -288,7 +293,7 @@ cursor: pointer;
     background-color: blueviolet;
     }
     .container{
-        width: 1200px;
+        width: 1500px;
     }
     .finish-box h4{
         /* font-weight: 600; */
@@ -313,7 +318,7 @@ cursor: pointer;
 }
 @media (max-width:768px){
     .container{
-        width: 1000px;
+        width: 1200px;
     }
 }
 @media (max-width:576px){
@@ -407,14 +412,14 @@ cursor: pointer;
     }
     .finish-box h4{
         font-weight: 500;
-        font-size: 2px;
+        font-size: 3px;
     }
     .finish-about{
         left: 20%;
-        font-size: 4px;
+        font-size: 3px;
     }
     .latter{
-        font-size: 4px;
+        font-size: 2px;
     }
     .search-box input{
         width:100%;
