@@ -8,7 +8,9 @@ const AppProvider = ({ children }) => {
   const changeHandler = (e) => {};
   const findIndex = (e) => {
     setIndex(e.target.id);
+    setShow(!show)
   };
+  const [show,setShow]=useState(false)
   const [newData, setNewData] = useState([]);
   const [index, setIndex] = useState("Abbat");
   const [title, setTitle] = useState("");
@@ -29,7 +31,8 @@ const AppProvider = ({ children }) => {
         setLatter,
         latter,
         setData,
-        setNewData
+        setNewData,
+        show
       }}
     >
       {children}

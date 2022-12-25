@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,19 +12,21 @@ body{
     overflow: hidden;
 }
 
-.container{
+
+.container {
+
     width: 1800px;
     height: 100vh;
     background-color: blueviolet;
     position: relative;
-    /* border: 1px solid black; */
+    /* border: 1px solid rgb(255, 255, 255); */
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.img-container{
+.img-container {
     width: 80%;
     position: absolute;
     display: flex;
@@ -33,34 +35,34 @@ body{
     /* border: 1px solid black; */
 }
 
-.img-container img{
+.img-container img {
     width: 80%;
 }
 
-.search-box{
+.relative-box .search-box {
     position: absolute;
     width: 20%;
-    top:10%;
-    left:20%;
+    top: 10%;
+    left: 20%;
     /* transform: rotate(1deg); */
 
 }
 
-.search-box input{
+.relative-box .search-box input {
     width: 100%;
     border: none;
     text-transform: capitalize;
-        /* border: .5px solid #fc3f6b; */
-        background-color: transparent;
-        outline: none;
-        border-radius: 2%;
-        padding: 3%;
-        font-weight: 700;
-        font-size: 75%;
-        box-shadow: .5px 0px 0px .5px rgb(242, 199, 119);
+    /* border: .5px solid #fc3f6b; */
+    background-color: transparent;
+    outline: none;
+    border-radius: 2%;
+    padding: 3%;
+    font-weight: 700;
+    font-size: 75%;
+    box-shadow: .5px 0px 0px .5px rgb(242, 199, 119);
 }
 
-.relative-box{
+.relative-box {
     width: 80%;
     position: relative;
     display: flex;
@@ -69,18 +71,18 @@ body{
     /* border: 2px solid yellow; */
 }
 
-.word-box{
+.relative-box .word-box {
     position: absolute;
-    left:20% ;
+    left: 20%;
     top: 20%;
     width: 26%;
     height: 67%;
     transform: rotate(1.5deg);
-    background-color:transparent;
+    background-color: transparent;
     /* border: 1px solid black; */
 }
 
-.wordabout-box{
+.relative-box .wordabout-box {
     position: absolute;
     width: 29%;
     height: 80%;
@@ -89,7 +91,7 @@ body{
     /* border: 1px solid black; */
 }
 
-.relative-word{
+.relative-word {
     position: relative;
     width: 100%;
     /* border: 1px solid red; */
@@ -97,142 +99,161 @@ body{
     overflow: hidden;
 }
 
-.finish-box{
+.relative-box .finish-box {
     position: absolute;
     height: 100%;
     width: 100%;
     left: 10%;
-    overflow-y:scroll ;
+    overflow-y: scroll;
 
 }
 
-.aboutrelative{
+.relative-box .aboutrelative {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.finish-about{
+.relative-box .finish-about {
     height: 100%;
     width: 100%;
     position: absolute;
-    left: 8%;
+    left: 5%;
     overflow-y: scroll;
 }
-.finish-box h4{
-font-weight: normal;
-cursor: pointer;
+
+.finish-box h4 {
+    font-weight: normal;
+    cursor: pointer;
 }
-.nick-name1{
+
+.nick-name1 {
     text-align: center;
     font-weight: 600;
     cursor: pointer;
     text-transform: uppercase;
 }
-.nick-name{
+
+.nick-name {
     text-align: center;
     font-weight: 600;
     cursor: pointer;
 
 }
-.info-name{
+
+.info-name {
     font-weight: 600;
     color: black;
 }
-.show{
-    color:blueviolet;
+
+.show {
+    color: blueviolet;
     font-weight: 600 !important;
 }
 
-.latter{
+.latter {
     text-align: center;
     position: absolute;
     cursor: pointer;
-    width: 2.4%;
-    font-size:70%;
+    width: 2.5%;
+    font-size: 70%;
     top: 0;
     left: 0;
 
-    background-color:rgb(240, 212, 175);
+    background-color: rgb(240, 212, 175);
     border-radius: 5%;
-    /* border: 1px solid black; */
+    border: 1px solid rgba(0, 0, 0, 0.348);
 }
-.latterall{
+
+.latterall {
     left: 15.3%;
     top: 12%;
 }
-.lattera{
+
+.lattera {
     left: 12.3%;
     top: 12%;
 }
-.latterb{
+
+.latterb {
     left: 12.8%;
     top: 15.4%;
 }
-.latterd{
+
+.latterd {
     left: 13.2%;
     top: 18.8%;
 }
-.lattere{
+
+.lattere {
     left: 13.6%;
     top: 22.1%;
 }
-.latterf{
+
+.latterf {
     left: 14%;
     top: 25.4%;
 
 }
-.latterg{
+
+.latterg {
     left: 14.4%;
     top: 28.9%;
 }
-.latterh{
+
+.latterh {
     left: 14.9%;
     top: 32.4%;
     width: 2.5%;
 
 }
-.latteri{
+
+.latteri {
     width: 2.5%;
     left: 15.3%;
     top: 35.9%;
 }
 
 
-.latterj{
+.latterj {
     left: 12.1%;
     top: 39%;
 }
 
-.latterk{
+.latterk {
     left: 12.8%;
     top: 42.4%;
 }
 
-.latterl{
+.latterl {
     left: 13.2%;
     top: 45.7%;
 }
-.latterm{
+
+.latterm {
     left: 13.6%;
     top: 49.1%;
 }
-.lattern{
+
+.lattern {
     left: 14%;
     top: 52.5%;
 
 }
-.lattero{
+
+.lattero {
     left: 14.4%;
     top: 55.8%;
 }
-.latterp{
+
+.latterp {
     left: 14.9%;
     top: 59.2%;
 
 }
-.latterq{
+
+.latterq {
     left: 15.3%;
     top: 62.4%;
 }
@@ -240,87 +261,273 @@ cursor: pointer;
 
 
 
-.latterr{
+.latterr {
     left: 11.5%;
     top: 66%;
 }
 
-.latters{
+.latters {
     left: 12%;
     top: 69.1%;
 }
-.lattert{
+
+.lattert {
     left: 12.5%;
-    top:72.6%;
+    top: 72.6%;
 }
-.latteru{
+
+.latteru {
     left: 13%;
     top: 75.9%;
 }
-.latterv{
+
+.latterv {
     left: 14%;
-    top:79.3%;
+    top: 79.3%;
 
 }
-.latterx{
+
+.latterx {
     left: 14.5%;
     top: 82.5%;
 }
-.lattery{
+
+.lattery {
     left: 15%;
     top: 86%;
 
 }
-.latterz{
+
+.latterz {
     left: 12.3%;
     top: 88%;
 }
-.lattershow{
+
+.lattershow {
     background-color: blueviolet;
-    color:#fff;
+    color: #fff;
     font-weight: 700;
 }
-@media(max-width:1200px){
-    .container{
+
+@media(max-width:1200px) {
+    .container {
         width: 1700px;
     }
 }
-@media (max-width:992px){
-    body{
+
+@media (max-width:992px) {
+    body {
         display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
+        align-items: center;
+        justify-content: center;
+        background-color: blueviolet;
     }
-    .container{
+
+    .container {
         width: 1500px;
     }
-    .finish-box h4{
+
+    .relative-box   .finish-box h4 {
         /* font-weight: 600; */
         font-size: 14px;
     }
-    .finish-box{
+
+    .relative-box  .finish-box {
         left: 17%;
     }
-    .finish-about{
+
+    .relative-box  .finish-about {
         left: 16%;
         font-size: 12px;
     }
-    .wordabout-box{
+
+    .relative-box .wordabout-box {
         right: 22%;
     }
-    .search-box{
+
+   .relative-box .search-box {
         position: absolute;
         width: 18%;
-        top:10%;
-        left:20%;
+        top: 10%;
+        left: 20%;
     }
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
+
+
+    .container {
+        width: 1300px;
+    }
+
+
+  
+}
+
+.wrapper{
+    display: none;
+}
+
+@media (max-width:650px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .container{
-        width: 1200px;
+        /* border: 1px solid #fff; */
+        background-color: #fff;
+       
     }
+    .container .img-container{
+        display: none;
+    }
+    .container .wrapper{
+        display:block;
+    
+        /* border: 1px solid red; */
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    .wrapper .word-container{
+        /* border: 1px solid black; */
+        background-image: url('./storyfon.jfif');
+        background-size: cover;
+        padding: 5px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    transform: translateX(0);
+
+    }
+    
+    .word-container .search-box{
+        width: 80%;
+        height: 5%;
+        margin-bottom: 5px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .word-container .search-box form{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+
+    .word-container .search-box input{
+        width: 100%;
+        height: 100%;
+        outline: none;
+        color: black;
+        font-weight: 600;
+        text-transform: capitalize;
+        border: transparent;
+        background-color:transparent;
+        border: .5px solid black;
+        border-radius: 5px;
+        padding: 0 8px;
+    }
+    .word-container .select{
+        width: 20%;
+        height: 5%;
+        border: .5px solid black;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .word-container .select select{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: transparent;
+        outline: none;
+        background-color: transparent;
+        border: transparent;
+        border-radius: 5px;
+    }
+
+    .word-container .select  option{
+        background-color:transparent;
+
+    }
+    
+    .word-container .word-box{
+        padding: 0px 0px 10px 10px;
+    width: 100%;
+    height: 95%;
+    overflow-y: scroll;
+    /* border: 1px solid green; */
 }
+.word-container .word-box h4{
+    cursor: pointer;
+}
+
+
+.wrapper .inform-container{
+    position: absolute;
+    /* border: 5px solid rgb(255, 251, 0); */
+    background-image: url('./izohli.jpg');
+    background-size: cover;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateX(-100%);
+    transition: all .5s ease-in-out;
+}
+
+.wrapper .inform-container.show{
+    transform: translateX(0);
+
+}
+.wrapper .inform-container .wordabout-box{
+    /* border: 1px solid rgb(0, 0, 0); */
+
+    padding: 10px;
+    width: 100%;
+    height:95%;
+    overflow-y: scroll;
+}
+.wrapper .inform-container .nick-name1{
+    color: chocolate;
+    font-weight: 700;
+}
+.wrapper .inform-container .nick-name{
+    color: chocolate;
+    font-weight: 700;
+}
+.wrapper .inform-container .info-name{
+    color: chocolate;
+}
+.wrapper .inform-container p{
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+}
+
+.wrapper .inform-container .backButton{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+}
+.wrapper .inform-container .backButton button{
+    width: 33.3%;
+    height: 100%;
+    border-radius: 8px;
+    border:.5px solid black;
+    font-weight: 600;
+    cursor: pointer;
+}
+}
+/* 
 @media (max-width:576px){
     .container{
         width: 900px;
@@ -343,7 +550,6 @@ cursor: pointer;
         width:100%;
         border: none;
         text-transform: capitalize;
-            /* border: .5px solid #fc3f6b; */
             background-color: transparent;
             outline: none;
             border-radius: 2%;
@@ -376,7 +582,6 @@ cursor: pointer;
         width:100%;
         border: none;
         text-transform: capitalize;
-            /* border: .5px solid #fc3f6b; */
             background-color: transparent;
             outline: none;
             border-radius: 2%;
@@ -425,7 +630,6 @@ cursor: pointer;
         width:100%;
         border: none;
         text-transform: capitalize;
-            /* border: .5px solid #fc3f6b; */
             background-color: transparent;
             outline: none;
             border-radius: 2%;
@@ -433,4 +637,4 @@ cursor: pointer;
             box-shadow:none;
             font-size: 4px;
     }
-}
+} */
