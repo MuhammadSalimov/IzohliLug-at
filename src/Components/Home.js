@@ -109,7 +109,7 @@ const Home = () => {
       <div className="wrapper">
         <div className="word-container">
           <SearchForm />
-          <div className="select">
+          {/* <div className="select">
             <select onChange={selectL} name="latter" id="latter">
               <option id="all">
                 all
@@ -187,7 +187,85 @@ const Home = () => {
                 z
               </option>
             </select>
+          </div> */}
+          <div className="latterList" >
+          <div onClick={latterF} id="all" className="latter latterall">
+            ^
           </div>
+          <div onClick={latterF} id="a" className="latter lattera">
+            A
+          </div>
+          <div onClick={latterF} id="b" className="latter latterb">
+            B
+          </div>
+          <div onClick={latterF} id="d" className="latter latterd">
+            D
+          </div>
+          <div onClick={latterF} id="e" className="latter lattere">
+            E
+          </div>
+          <div onClick={latterF} id="f" className="latter latterf">
+            F
+          </div>
+          <div onClick={latterF} id="g" className="latter latterg">
+            G
+          </div>
+          <div onClick={latterF} id="h" className="latter latterh">
+            H
+          </div>
+          <div onClick={latterF} id="i" className="latter latteri">
+            I
+          </div>
+          <div onClick={latterF} id="j" className="latter latterj">
+            J
+          </div>
+          <div onClick={latterF} id="k" className="latter latterk">
+            K
+          </div>
+          <div onClick={latterF} id="l" className="latter latterl">
+            L
+          </div>
+          <div onClick={latterF} id="m" className="latter latterm">
+            M
+          </div>
+          <div onClick={latterF} id="n" className="latter lattern">
+            N
+          </div>
+          <div onClick={latterF} id="o" className="latter lattero">
+            O
+          </div>
+          <div onClick={latterF} id="p" className="latter latterp">
+            P
+          </div>
+          <div onClick={latterF} id="q" className="latter latterq">
+            Q
+          </div>
+          <div onClick={latterF} id="r" className="latter latterr">
+            R
+          </div>
+          <div onClick={latterF} id="s" className="latter latters">
+            S
+          </div>
+          <div onClick={latterF} id="t" className="latter lattert">
+            T
+          </div>
+          <div onClick={latterF} id="u" className="latter latteru">
+            U
+          </div>
+          <div onClick={latterF} id="v" className="latter latterv">
+            V
+          </div>
+          <div onClick={latterF} id="x" className="latter latterx">
+            X
+          </div>
+          <div onClick={latterF} id="y" className="latter lattery">
+            Y
+          </div>
+          <div onClick={latterF} id="z" className="latter latterz">
+            Z
+          </div>
+
+             </div>
           <div className="word-box">
             <WordItem />
           </div>

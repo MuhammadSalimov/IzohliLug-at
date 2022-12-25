@@ -152,7 +152,7 @@ body {
     font-weight: 600 !important;
 }
 
-.latter {
+.relative-box .latter {
     text-align: center;
     position: absolute;
     cursor: pointer;
@@ -166,94 +166,94 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.348);
 }
 
-.latterall {
+.relative-box .latterall {
     left: 15.3%;
     top: 12%;
 }
 
-.lattera {
+.relative-box .lattera {
     left: 12.3%;
     top: 12%;
 }
 
-.latterb {
+.relative-box .latterb {
     left: 12.8%;
     top: 15.4%;
 }
 
-.latterd {
+.relative-box .latterd {
     left: 13.2%;
     top: 18.8%;
 }
 
-.lattere {
+.relative-box .lattere {
     left: 13.6%;
     top: 22.1%;
 }
 
-.latterf {
+.relative-box .latterf {
     left: 14%;
     top: 25.4%;
 
 }
 
-.latterg {
+.relative-box .latterg {
     left: 14.4%;
     top: 28.9%;
 }
 
-.latterh {
+.relative-box .latterh {
     left: 14.9%;
     top: 32.4%;
     width: 2.5%;
 
 }
 
-.latteri {
+.relative-box .latteri {
     width: 2.5%;
     left: 15.3%;
     top: 35.9%;
 }
 
 
-.latterj {
+.relative-box .latterj {
     left: 12.1%;
     top: 39%;
 }
 
-.latterk {
+.relative-box .latterk {
     left: 12.8%;
     top: 42.4%;
 }
 
-.latterl {
+.relative-box .latterl {
     left: 13.2%;
     top: 45.7%;
 }
 
-.latterm {
+.relative-box .latterm {
     left: 13.6%;
     top: 49.1%;
 }
 
-.lattern {
+.relative-box .lattern {
     left: 14%;
     top: 52.5%;
 
 }
 
-.lattero {
+.relative-box .lattero {
     left: 14.4%;
     top: 55.8%;
 }
 
-.latterp {
+.relative-box .latterp {
     left: 14.9%;
     top: 59.2%;
 
 }
 
-.latterq {
+.relative-box .latterq {
     left: 15.3%;
     top: 62.4%;
 }
@@ -261,49 +261,49 @@ body {
 
 
 
-.latterr {
+.relative-box .latterr {
     left: 11.5%;
     top: 66%;
 }
 
-.latters {
+.relative-box .latters {
     left: 12%;
     top: 69.1%;
 }
 
-.lattert {
+.relative-box .lattert {
     left: 12.5%;
     top: 72.6%;
 }
 
-.latteru {
+.relative-box .latteru {
     left: 13%;
     top: 75.9%;
 }
 
-.latterv {
+.relative-box .latterv {
     left: 14%;
     top: 79.3%;
 
 }
 
-.latterx {
+.relative-box .latterx {
     left: 14.5%;
     top: 82.5%;
 }
 
-.lattery {
+.relative-box .lattery {
     left: 15%;
     top: 86%;
 
 }
 
-.latterz {
+.relative-box .latterz {
     left: 12.3%;
     top: 88%;
 }
 
-.lattershow {
+.relative-box .lattershow {
     background-color: blueviolet;
     color: #fff;
     font-weight: 700;
@@ -374,8 +374,12 @@ body {
         padding: 0;
         box-sizing: border-box;
     }
+    html{
+        overflow: hidden;
+    }
     .container{
-        /* border: 1px solid #fff; */
+        width: 100vw;
+        height: 100vh;
         background-color: #fff;
        
     }
@@ -389,6 +393,7 @@ body {
         width: 100vw;
         height: 100vh;
         position: relative;
+        overflow: hidden;
     }
     .wrapper .word-container{
         /* border: 1px solid black; */
@@ -397,7 +402,7 @@ body {
         padding: 5px;
         position: absolute;
         width: 100%;
-        height: 100%;
+        height:100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -406,9 +411,9 @@ body {
     }
     
     .word-container .search-box{
-        width: 80%;
+        width: 100%;
         height: 5%;
-        margin-bottom: 5px;
+        margin-bottom:5px;
         border: none;
         background-color: transparent;
     }
@@ -433,7 +438,10 @@ body {
         border-radius: 5px;
         padding: 0 8px;
     }
-    .word-container .select{
+
+    
+
+    /* .word-container .select{
         width: 20%;
         height: 5%;
         border: .5px solid black;
@@ -454,13 +462,35 @@ body {
     .word-container .select  option{
         background-color:transparent;
 
-    }
+    } */
     
+     .latterList{
+        width:10% ;
+        height:90%;
+        /* border: .5px solid black; */
+        text-align: center;
+        overflow-y: scroll;
+        
+    }
+    .latterList .latter{
+       cursor: pointer;
+        margin-bottom: 1px;
+    }
+    .latterList .lattershow {
+        background-color:transparent;
+        color: #fff;
+        font-weight: 700;
+        border: .5px solid black;
+        border-radius: 5px;
+    }
+
+
     .word-container .word-box{
         padding: 0px 0px 10px 10px;
-    width: 100%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
     overflow-y: scroll;
+    color: rgb(206, 202, 202);
     /* border: 1px solid green; */
 }
 .word-container .word-box h4{
@@ -491,7 +521,7 @@ body {
 
     padding: 10px;
     width: 100%;
-    height:95%;
+    height:90%;
     overflow-y: scroll;
 }
 .wrapper .inform-container .nick-name1{
@@ -575,7 +605,7 @@ body {
     .wordabout-box{
         right: 24%;
     }
-    .latter{
+    .relative-box .latter{
         font-size: 8px;
     }
     .search-box input{
@@ -606,7 +636,7 @@ body {
         left: 22%;
         font-size: 4px;
     }
-    .latter{
+    .relative-box .latter{
         font-size: 2px;
     }
 }
@@ -623,7 +653,7 @@ body {
         left: 20%;
         font-size: 3px;
     }
-    .latter{
+    .relative-box .latter{
         font-size: 2px;
     }
     .search-box input{
