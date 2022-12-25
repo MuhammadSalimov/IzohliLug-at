@@ -8,9 +8,7 @@ import { useGlobalContext } from "../context";
 
 const Home = () => {
   const { setLatter, show, findIndex } = useGlobalContext();
-  const selectL=(e)=>{
-    setLatter(e.target.value)
-  }
+
   const latterF = (e) => {
     setLatter(e.target.id);
     const harf = document.querySelectorAll(".latter");
